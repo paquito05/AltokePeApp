@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">altokePeApp</string>
+
+    <string name="content_description">imagen</string>
+    <string name="title_login">LOGIN</string>
+    <string name="et_hint_email_id">EMAIL ID</string>
+    <string name="et_hint_telefono">TELÉFONO</string>
+    <string name="et_hint_direccion">DIRECCIÓN</string>
+    <string name="et_hint_dni">DNI</string>
+    <string name="et_hint_password">CONTRASEÑA</string>
+    <string name="lbl_olvido_password">¿Has olvidado tu contraseña?</string>
+    <string name="btn_lbl_login">LOGIN</string>
+    <string name="no_tengo_una_cuenta">¿No tengo una cuenta?</string>
+    <string name="registrarse"><u>REGISTRARSE</u></string>
+
+    <string name="err_msg_enter_email">Por favor, ingrese su correo electrónico.</string>
+    <string name="err_msg_enter_password">Por favor, ingrese contraseña.</string>
+
+    <string name="err_msg_enter_telefono">Por favor, ingrese el número de celular.</string>
+    <string name="err_msg_enter_direccion">Por favor, ingrese su dirección.</string>
+    <string name="msg_perfil_update_exitoso">Su perfil se actualizó correctamente.</string>
+
+    <string name="clic_atras_nuevamente_para_salir">Vuelva a hacer clic en atrás para salir.</string>
+
+    <string name="title_completar_perfil"> COMPLETAR PERFIL</string>
+    <string name="espere_por_favor">Espere por favor &#8230;</string>
+    <string name="crea_una_cuenta">CREA UNA CUENTA</string>
+    <string name="hint_nombres">NOMBRE</string>
+    <string name="hint_apellidos">APELLIDO</string>
+
+    <string name="et_hint_confirmar_password">CONFIRMAR CONTRASEÑA</string>
+    <string name="estoy_de_cuerdo_con_los_términos_y_condición">Acepto los <u>Términos &amp; Condiciones </u></string>
+    <string name="btn_lbl_registrarse">REGISTRARSE</string>
+
+    <string name="ya_tienes_una_cuenta">¿Ya tienes una cuenta?</string>
+    <string name="login"><u>Login</u></string>
+
+    <string name="registrase_exitoso">Estás registrado correctamente.</string>
+
+
+    <string name="err_msg_enter_nombres">Ingrese su nombre.</string>
+    <string name="err_msg_enter_saldo_insuficiente">No cunetas con saldo para hacer esta cantidad del pedido.</string>
+    <string name="err_msg_enter_apellidos">Ingrese su apellido.</string>
+    <string name="err_msg_enter_confirma_password">Introduzca la confirmación de contraseña</string>
+    <string name="err_msg_enter_password_mayor_10_caracteres">Introduzca la contraseña mayor de 10 caracteres.</string>
+    <string name="err_msg_enter_password_and_confirma_password_no_conciden">La contraseña y la confirmación de contraseña  no coinciden</string>
+    <string name="err_msg_agree_terminos_y_condiciones">Por favor acepte los términos y condiciones.</string>
+    <string name="registrarse_exitosamente">¡Gracias por registrarte!</string>
+
+    <string name="btn_lbl_enviar">Enviar</string>
+
+    <string name="title_olvido_password">¿HAS OLVIDADO TU CONTRASEÑA?</string>
+    <string name="olvido_password_title_descripcion">Ingrese su nombre de usuario y dirección de correo electrónico, le enviaremos un correo electrónico para restablecer su contraseña</string>
+
+
+    <string name="email_enviado_correctamente">"\¡Correo electrónico enviado con éxito para restablecer su contraseña!\"</string>
+    <string name="title_activity_completar_usuario_perfil">CompletarUsuarioPerfilActivity</string>
+
+    <string name="rb_lbl_masculino">MASCULINO</string>
+    <string name="rb_lbl_femenino">FEMENINO</string>
+    <string name="btn_lbl_save">GUARDAR</string>
+
+    <string name="read_storage_permisos_denegado">Vaya, acabas de denegar el permiso de almacenamiento. También puedes permitirlo desde la configuración.</string>
+    <string name="image_seleccion_fallida">Error de selección de imagen</string>
+    <string name="title_editar_perfil">EDITAR PERFIL</string>
+    <string name="title_activity_dashboard">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="et_hint_cantidad_id">CANTIDAD</string>
+    <string name="et_hint_direccion_id">DIRECCIÓN</string>
+    <string name="btn_lbl_realizarPedido">REALIZAR PEDIDO</string>
+
+
+    <string name="err_msg_enter_cantidad_p">Por favor, ingrese la cantidad del pedido a Realizar.</string>
+    <string name="err_msg_enter_direccion_p">Por favor, ingrese la dirección.</string>
+    <string name="pedido_exitosamente">¡Gracias por Realizar tu pedido!</string>
+
+
+    <string name="btn_lbl_logout">CERRAR SESIÓN</string>
+    <string name="editar_perfil">EDITAR PERFIL</string>
+    <string name="numero_de_targeta">NÚMERO DE TARJETA</string>
+    <string name="hint_cvv_recargar_saldo">CVV</string>
+    <string name="fecha_vencimiento">FECHA CADUCIDAD</string>
+    <string name="monto_a_recargar">MONTO A RECARGAR</string>
+
+    <string name="btn_lbl_recargar_saldo">RECARGAR SALDO</string>
+
+    <string name="err_msg_enter_numero_targeta">Por favor, ingrese el número de Tarjeta</string>
+    <string name="err_msg_enter_fecha_targeta">Por favor, ingrese la fecha de vencimiento de su tarjeta</string>
+    <string name="err_msg_enter_numero_cvv">Por favor, ingrese el número CVV de su tarjeta</string>
+    <string name="err_msg_enter_monto_recarga">Por favor, ingrese el monto a recargar</string>
+    <string name="recargar_saldo_exitosamente">¡Gracias por recargar!</string>
+    <string name="perfil">PERFIL</string>
+    <string name="movimientos">MOVIMIENTOS</string>
+    <string name="menu">MENU</string>
+
+
+    <string-array name = "mes_list">
+        <item> 01 </item>
+        <item> 02 </item>
+        <item> 03 </item>
+        <item> 04 </item>
+        <item> 05 </item>
+        <item> 06 </item>
+        <item> 07 </item>
+        <item> 08 </item>
+        <item> 09 </item>
+        <item> 10 </item>
+        <item> 11 </item>
+        <item> 12 </item>
+    </string-array>
+
+</resources>
+

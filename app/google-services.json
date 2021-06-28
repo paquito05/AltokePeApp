@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "844565789947",
+    "project_id": "altokpe-6c6ad",
+    "storage_bucket": "altokpe-6c6ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844565789947:android:d7faf21359baede0ce845e",
+        "android_client_info": {
+          "package_name": "com.example.altokepeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844565789947-gs9nvn3k9irfhs0rkvh8bhqcg0rvrko1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.altokepeapp",
+            "certificate_hash": "b6fabdd41d0410b1297964420877ae025473ea2e"
+          }
+        },
+        {
+          "client_id": "844565789947-7lo6gqefth18e6okehr4917os3bmvc95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEATamJWawILpYI5jLQsJrx5uwA0TLnVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844565789947-7lo6gqefth18e6okehr4917os3bmvc95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

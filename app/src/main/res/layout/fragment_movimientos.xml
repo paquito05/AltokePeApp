@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingEnd="16dp"
+    android:paddingStart="16dp"
+    tools:context=".ui.fragment.movimientos.MovimientosFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_movimientos_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.example.altokepeapp.utils.ATKTextViewBold
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingStart="@dimen/toolbar_title_paddingStart"
+            android:paddingEnd="0dp"
+            android:text="MOVIMIENTOS"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/toolbar_title_text_size" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.example.altokepeapp.utils.ATKTextViewBold
+        android:id="@+id/tv_pedidos_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pedidos"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_movimientos_fragment" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_pedidos_m"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_pedidos_m" />
+
+    <com.example.altokepeapp.utils.ATKTextViewBold
+        android:id="@+id/tv_recargas_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recargas"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rv_pedidos_m"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_recargas_m"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_recargas_m" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

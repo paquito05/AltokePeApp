@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.altokepeapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_altoke"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_altoke_round"
+        android:supportsRtl="true"
+        android:theme="@style/ThemeAltokePeApp">
+        <activity android:name=".ui.fragment.Perfil.EditarPerfilActivity"></activity>
+        <activity
+            android:name=".ui.fragment.Perfil.RecargarSaldoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeAltokePeApp.NoActionBar" />
+        <activity
+            android:name=".ui.fragment.pedido.PedidoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeAltokePeApp.NoActionBar" />
+        <activity
+            android:name=".ui.activities.DashboardActivity"
+            android:label="@string/title_activity_dashboard" />
+        <activity
+            android:name=".ui.activities.CompletarUsuarioPerfilActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeAltokePeApp.NoActionBar" />
+        <activity
+            android:name=".ui.activities.OlvidoPasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeAltokePeApp.NoActionBar" />
+        <activity
+            android:name=".ui.activities.RegistrarseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeAltokePeApp.NoActionBar" />
+        <activity android:name=".ui.activities.BaseActivity" />
+        <activity
+            android:name=".ui.activities.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeAltokePeApp.NoActionBar" />
+        <activity
+            android:name=".ui.activities.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeAltokePeApp.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activities.MainActivity" />
+    </application>
+
+</manifest>
